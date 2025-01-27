@@ -24,5 +24,11 @@ public class Main {
             System.out.println(item.getDescription());
             System.out.println(item.getPrice());
         }
+
+        double total = 0;
+        for(MenuItem item : items){
+            total += item.getPrice();
+        }
+        System.out.println("Total cost " + total);
     }
 }

@@ -34,6 +34,8 @@ public class Burger implements MenuItem {
     public void setDescription(String description) {
         this.description = description;
     }
+
+
 }
 
 
