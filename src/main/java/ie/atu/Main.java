@@ -12,12 +12,14 @@ public class Main {
         Burger veggie = new Burger("Veggieburger", 2.50, "Healthy");
         Pizza tuna = new Pizza("Tuna Pizza", 8.99, "Nice");
         Fries fries = new Fries("Curry Fries", 5.99, "Very tasty");
+        Dessert dessert = new Dessert("Cake", 5.99, "Yum");
 
         //List all of the food items like burgers etc..
         items.add(cheeseBurger);
         items.add(veggie);
         items.add(tuna);
         items.add(fries);
+        items.add(dessert);
         //Display details to user
         for(MenuItem item : items){
             System.out.println(item.getName());
